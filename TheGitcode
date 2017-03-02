@@ -1,0 +1,121 @@
+
+public class MathClass {
+
+    public static void main(String [] args)
+    	{
+
+    int num1 = 2;
+    double num2 = -2;
+    int num3 = 5;
+    double num4 = .5;
+    double num5= 1.5;
+    double num6= -10.1;
+    double num7 = 1.0;
+	double x = 132.3;
+	double y = -12.3;
+
+
+
+
+
+		System.out.println(Math.abs(num1));
+		System.out.println("Displasys numbers distance from zero");
+		System.out.println(Math.abs(num2));
+		System.out.println("Displasys numbers distance from zero");
+		System.out.println(Math.acos(num5));
+		System.out.println("Returns the arc cosine of a value");
+		System.out.println(Math.asin(num4));
+		System.out.println("Returns the arc sine of a value");
+		System.out.println(Math.atan(num6));
+		System.out.println("Returns the arc tangent of a value");
+		System.out.println(Math.atan2(num5,num6));
+		System.out.println("Returns the angle theta from x,y ");
+		System.out.println(Math.cbrt(num5));
+		System.out.println("Returns the cube root");
+		System.out.println(Math.ceil(num5));
+		System.out.println("Returns the smallest (closest to negative infinity) value");
+		System.out.println(Math.copySign(num4,num5));
+		System.out.println("Returns the first floating-point argument with the sign of the second floating-point argument.");
+		System.out.println(Math.cos(num4));
+		System.out.println("Returns the trigonometric cosine of an angle.");
+		System.out.println(Math.cosh(num5));
+		System.out.println("Returns the hyperbolic cosine of a double value.");
+		System.out.println(Math.exp(num5));
+		System.out.println("Returns Euler's number e raised to the power of a double value.");
+		System.out.println(Math.expm1(num5));
+		System.out.println("Returns ex -1.");
+		System.out.println(Math.floor(num1));
+		System.out.println("Returns the largest (closest to positive infinity)");
+		System.out.println(Math.getExponent(num3));
+		System.out.println("Returns the unbiased exponent used in the representation of a double.");
+    	System.out.println(Math.hypot(num6, num7 ));
+		System.out.println("Returns sqrt(x2 +y2) without intermediate overflow or underflow.");
+    	System.out.println(Math.IEEEremainder(num2,num5));
+		System.out.println("Computes the remainder operation on two arguments as prescribed by the IEEE 754 standard.");
+    	System.out.println(Math.log(num1));
+		System.out.println("Returns the natural logarithm (base e) of a double value.");
+    	System.out.println(Math.log10(num1));
+		System.out.println("Returns the base 10 logarithm of a double value.");
+    	System.out.println(Math.log1p(num1));
+		System.out.println("Returns the natural logarithm of the sum of the argument and 1.");
+    	System.out.println(Math.max(num1,num6));
+		System.out.println("Returns the greater of two double values.");
+    	System.out.println(Math.max(num3,num1));
+		System.out.println("Returns the greater of two double values.");
+    	System.out.println(Math.min(num1,num3));
+		System.out.println("Returns the smaller of two double values.");
+    	System.out.println(Math.min(num4,num5));
+		System.out.println("Returns the smaller of two double values.");
+    	System.out.println(Math.nextAfter(num2,num4));
+		System.out.println("Returns the smaller of two double values.");
+    	System.out.println(Math.nextAfter(num5,num6));
+    	System.out.println("Returns the smaller of two double values.");
+
+    	System.out.println(Math.nextUp(num1));
+		System.out.println("Returns the floating-point value adjacent to d in the direction of positive infinity.");
+    	System.out.println(Math.pow(num4,num6));
+		System.out.println("Returns the value of the first argument raised to the power of the second argument.");
+    	System.out.println(Math.random());
+		System.out.println("Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0.");
+    	System.out.println(Math.rint(num5));
+		System.out.println("Returns the double value that is closest in value to the argument and is equal to a mathematical integer.");
+    	System.out.println(Math.round(num5));
+		System.out.println("Returns the closest int to the argument, with ties rounding up.");
+    	System.out.println(Math.scalb(num5,1));
+		System.out.println("Return d × 2scaleFactor rounded as if performed by a single correctly rounded floating-point multiply to a member of the double value set.");
+    	System.out.println(Math.signum(num5));
+		System.out.println("Returns the signum function of the argument; zero if the argument is zero, 1.0 if the argument is greater than zero, -1.0 if the argument is less than zero.");
+    	System.out.println(Math.sin(num1));
+		System.out.println("Returns the trigonometric sine of an angle.");
+    	System.out.println(Math.sinh(5));
+		System.out.println("Returns the hyperbolic sine of a double value.");
+    	System.out.println(Math.sqrt(num5));
+		System.out.println("Returns the correctly rounded positive square root of a double value.");
+    	System.out.println(Math.tan(num4));
+		System.out.println("Returns the trigonometric tangent of an angle.");
+    	System.out.println(Math.tanh(num6));
+		System.out.println("Returns the hyperbolic tangent of a double value.");
+		System.out.println(Math.toDegrees(num7));
+		System.out.println("Converts an angle measured in radians to an approximately equivalent angle measured in degrees.");
+		System.out.println(Math.toRadians(num5));
+		System.out.println("Converts an angle measured in degrees to an approximately equivalent angle measured in radians.");
+		System.out.println(Math.ulp(num5));
+		System.out.println("Returns the size of an ulp of the argument.");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+}
