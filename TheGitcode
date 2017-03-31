@@ -1,59 +1,560 @@
 import java.util.Scanner;
 
-public class Triangle3 {
+public class BaseballStats {
 
-    public static void main(String[] args)
+    public static void main(String [] args)
     	{
     Scanner scan = new Scanner(System.in);
-    int numRows;
-    int stars;
-    int rows;
-    int spaces;
 
 
-    System.out.print("How many rows?");
-    numRows = scan.nextInt();
+	int isRunning = 0;
+	while (isRunning == 0){
+
+    System.out.println("Choose player you want stats for");
+    System.out.println("Choose 0 for Noah");
+    System.out.println("Choose 1 for Cameron");
+    System.out.println("Choose 2 for Adrian");
+    System.out.println("Choose 7 for Case");
+    System.out.println("Choose 9 for Ryan");
+    System.out.println("Choose 10 for Kaden");
+    System.out.println("Choose 17 for Bennett");
+    System.out.println("Choose 19 for Boston");
+    System.out.println("Choose 25 for Evan");
+    System.out.println("Choose 64 for Jacob");
+    int player = scan.nextInt();
+	int nAB;
+	int nPA;
+	int nH;
+	int nS;
+	int nD;
+	int nBB;
+	int nHBP;
+
+	int cAB;
+	int cPA;
+	int cH;
+	int cS;
+	int cD;
+	int cBB;
+	int cHBP;
+
+	int aAB;
+	int aPA;
+	int aH;
+	int aS;
+	int aD;
+	int aBB;
+	int aHBP;
+
+	int csAB;
+	int csPA;
+	int csH;
+	int csS;
+	int csD;
+	int csBB;
+	int csHBP;
+
+	int rAB;
+	int rPA;
+	int rH;
+	int rS;
+	int rD;
+	int rBB;
+	int rHBP;
+
+	int kAB;
+	int kPA;
+	int kH;
+	int kS;
+	int kD;
+	int kBB;
+	int kHBP;
+
+	int bttAB;
+	int bttPA;
+	int bttH;
+	int bttS;
+	int bttD;
+	int bttBB;
+	int bttHBP;
+
+	int bAB;
+	int bPA;
+	int bH;
+	int bS;
+	int bD;
+	int bBB;
+	int bHBP;
+
+	int eAB;
+	int ePA;
+	int eH;
+	int eS;
+	int eD;
+	int eBB;
+	int eHBP;
+
+
+	int jAB;
+	int jPA;
+	int jH;
+	int jS;
+	int jD;
+	int jBB;
+	int jHBP;
+
+
+   //Noah
+	int nStats = 0;
+	while (nstats == 0){
+	  
+  	if ( player == 0){
+	
+  		System.out.println("What stats would you like to see?");
+  		System.out.println("Choose 1 for batting average");
+   		System.out.println("Choose 2 for on base percentage");
+   		System.out.println("Choose 3 for Slugging Percentage");
+   		System.out.println("Choose 4 for on base plus slugging percentage");
+
+   		int stats = scan.nextInt();
+   			if (stats == 1){
+
+   				System.out.println("Noah's batting avearge is .333");
+   				System.out.println("He is tied for number 5 in this stat");
+
+   			}
+   					else
+   						if (stats == 2){
+
+   							System.out.println("Noah's on base percntage is .586");
+   							System.out.println("He is number 2 in this stat");
+   						}
+   								else
+   									if (stats == 3){
+
+   										System.out.println("Noah's slugging percentage is .444");
+   										System.out.println("He is number 6 in this stat");
+   									}
+   									else
+   										if (stats ==4){
+
+   											System.out.println("Noah's on base plus slugging percentage is 1.03");
+   											System.out.println("He is number 2 in this stat");
+
+   										}
+   					System.out.println("Do you want to see more of Noah's stats");
+   					
+  	}
+   					System.out.println("Do you want to choose a new player?");
+   					System.out.println("1 for yes 2 for no.");
+   					int choice = scan.nextInt();
+   					if (choice == 1)
+   					   isRunning = 0;
+   						   else
+   						   	isRunning = 1;
 
 
 
-    rows = 1;
 
 
 
+  	}
 
-    while (rows <= numRows)
-    {
-
-
-      spaces = (numRows-1);
-
-
-        while (spaces >= rows)
-        {
-          System.out.print(" ");
-          spaces--;
-
-        }
-        stars=1;
-        while (stars <= rows)
-        {
-       	      System.out.print("*");
-
-              stars++;
-
-       }
-         System.out.println();
-         rows++;
+	
 
 
 
 
 
 
-       }
 
 
-    }
 
 
-}
+ //Cameron
+
+ 	while (player == 1){
+
+   		System.out.println("What stats would you like to see?");
+  		System.out.println("Choose 1 for batting average");
+   		System.out.println("Choose 2 for on base percentage");
+   		System.out.println("Choose 3 for Slugging Percentage");
+   		System.out.println("Choose 4 for on base plus slugging percentage");
+   		int stats = scan.nextInt();
+   			if (stats == 1){
+
+   				System.out.println("Cameron's batting avearge is .310");
+   				System.out.println("He is number 7 in this stat");
+   			}
+   					else
+   						if (stats == 2){
+
+   							System.out.println("Cameron's on base percntage is .436");
+   							System.out.println("He is number 8 in this stat");
+   						}
+   								else
+   									if (stats == 3){
+
+   										System.out.println("Cameron's slugging percentage is .448");
+   										System.out.println("He is number 5 in this stat");
+   									}
+   										if (stats ==4){
+
+   											System.out.println("Cameron's on base plus slugging percentage is .844");
+   											System.out.println("He is number 8 in this stat");
+   										}
+ 	}
+
+
+
+
+
+
+//Adrian
+
+	while (player == 2){
+
+   		System.out.println("What stats would you like to see?");
+  		System.out.println("Choose 1 for batting average");
+   		System.out.println("Choose 2 for on base percentage");
+   		System.out.println("Choose 3 for Slugging Percentage");
+   		System.out.println("Choose 4 for on base plus slugging percentage");
+   		int stats = scan.nextInt();
+   			if (stats == 1){
+   				System.out.println("Adrian's batting avearge is .600");
+   				System.out.println("He is number 1 in this stat");
+   			}
+   					else
+   						if (stats == 2){
+
+   							System.out.println("Adrian's on base percntage is .688");
+   							System.out.println("He is number 1 in this stat");
+   						}
+   								else
+   									if (stats == 3){
+
+   										System.out.println("Adrian's slugging percentage is .840");
+   										System.out.println("He is number 1 in this stat");
+   									}
+   											else
+   										if (stats ==4){
+
+   											System.out.println("Adrian's on base plus slugging percentage is 1.528");
+   											System.out.println("He is number 1 in this stat");
+   										}
+
+ 	}
+
+
+
+//Case
+
+	while (player == 7){
+
+   		System.out.println("What stats would you like to see?");
+  		System.out.println("Choose 1 for batting average");
+   		System.out.println("Choose 2 for on base percentage");
+   		System.out.println("Choose 3 for Slugging Percentage");
+   		System.out.println("Choose 4 for on base plus slugging percentage");
+   		int stats = scan.nextInt();
+   			if (stats == 1){
+
+   				System.out.println("Case's batting avearge is .375");
+   				System.out.println("He is number 3 in this stat");
+   			}
+   					else
+   						if (stats == 2){
+
+   							System.out.println("Case's on base percntage is .447");
+   							System.out.println("He is number 6 in this stat");
+   						}
+   								else
+   									if (stats == 3){
+
+   										System.out.println("Case's slugging percentage is .406");
+   										System.out.println("He is number 7 in this stat");
+   									}
+   											else
+   										if (stats ==4){
+
+   											System.out.println("Case's on base plus slugging percentage is .853");
+   											System.out.println("He is number 7 in this stat");
+   										}
+
+	}
+
+
+
+
+
+//Ryan
+
+	while (player == 9){
+
+   		System.out.println("What stats would you like to see?");
+  		System.out.println("Choose 1 for batting average");
+   		System.out.println("Choose 2 for on base percentage");
+   		System.out.println("Choose 3 for Slugging Percentage");
+   		System.out.println("Choose 4 for on base plus slugging percentage");
+   		int stats = scan.nextInt();
+   			if (stats == 1){
+
+   				System.out.println("Ryan's batting avearge is .087");
+   				System.out.println("He is number 10 in this stat");
+   			}
+   					else
+   						if (stats == 2){
+
+   							System.out.println("Ryan's on base percntage is .290");
+   							System.out.println("He is number 10 in this stat");
+   						}
+   								else
+   									if (stats == 3){
+
+   										System.out.println("Ryan's slugging percentage is .087");
+   										System.out.println("He is number 10 in this stat");
+   									}
+   										  else
+   											if (stats ==4){
+
+   												System.out.println("Ryan's on base plus slugging percentage is .377");
+   												System.out.println("He is number 10 in this stat");
+   										}
+
+ 	}
+
+
+
+
+//Kaden
+
+	while (player == 10){
+
+   		System.out.println("What stats would you like to see?");
+  		System.out.println("Choose 1 for batting average");
+   		System.out.println("Choose 2 for on base percentage");
+   		System.out.println("Choose 3 for Slugging Percentage");
+   		System.out.println("Choose 4 for on base plus slugging percentage");
+   		int stats = scan.nextInt();
+   			if (stats == 1){
+
+   				System.out.println("Kaden's batting avearge is .348");
+   				System.out.println("He is number 4 in this stat");
+   			}
+   					else
+   						if (stats == 2){
+
+   							System.out.println("Kaden's on base percntage is .464");
+   							System.out.println("He is number 5 in this stat");
+   						}
+   								else
+   									if (stats == 3){
+
+   										System.out.println("Kaden's slugging percentage is .478");
+   										System.out.println("He is number 3 in this stat");
+   									}
+   											else
+   										if (stats ==4){
+
+   											System.out.println("Kaden's on base plus slugging percentage is .942");
+   											System.out.println("He is number 5 in this stat");
+   										}
+
+ 	}
+
+
+
+
+
+//Bennett
+
+	while (player == 17){
+
+   		System.out.println("What stats would you like to see?");
+  		System.out.println("Choose 1 for batting average");
+   		System.out.println("Choose 2 for on base percentage");
+   		System.out.println("Choose 3 for Slugging Percentage");
+   		System.out.println("Choose 4 for on base plus slugging percentage");
+   		int stats = scan.nextInt();
+   			if (stats == 1){
+   				System.out.println("Bennett's batting avearge is .438");
+   				System.out.println("He is number 2 in this stat");
+   			}
+   					else
+   						if (stats == 2){
+
+   							System.out.println("Bennett's on base percntage is .550");
+   							System.out.println("He is number 3 in this stat");
+   						}
+   								else
+   									if (stats == 3){
+
+   										System.out.println("Bennett's slugging percentage is .469");
+   										System.out.println("He is number 4 in this stat");
+   									}
+   											else
+   										if (stats ==4){
+
+   											System.out.println("Bennett's on base plus slugging percentage is 1.019");
+   											System.out.println("He is number 3 in this stat");
+   										}
+
+ 	}
+
+
+
+
+
+
+ 	//Boston
+
+	while (player == 19){
+
+   		System.out.println("What stats would you like to see?");
+  		System.out.println("Choose 1 for batting average");
+   		System.out.println("Choose 2 for on base percentage");
+   		System.out.println("Choose 3 for Slugging Percentage");
+   		System.out.println("Choose 4 for on base plus slugging percentage");
+   		int stats = scan.nextInt();
+   			if (stats == 1){
+
+   				System.out.println("Boston's batting avearge is .296");
+   				System.out.println("He is number 8 in this stat");
+   			}
+   					else
+   						if (stats == 2){
+
+   							System.out.println("Boston's on base percntage is .424");
+   							System.out.println("He is number 9 in this stat");
+   						}
+   								else
+   									if (stats == 3){
+
+   										System.out.println("Boston's slugging percentage is .519");
+   										System.out.println("He is number 2 in this stat");
+   									}
+   											else
+   										if (stats ==4){
+
+   											System.out.println("Boston's on base plus slugging percentage is .943");
+   											System.out.println("He is number 4 in this stat");
+   										}
+
+ 	}
+
+
+
+
+
+
+
+
+//Evan
+
+	while (player == 25){
+
+   		System.out.println("What stats would you like to see?");
+  		System.out.println("Choose 1 for batting average");
+   		System.out.println("Choose 2 for on base percentage");
+   		System.out.println("Choose 3 for Slugging Percentage");
+   		System.out.println("Choose 4 for on base plus slugging percentage");
+   		int stats = scan.nextInt();
+   			if (stats == 1){
+
+   				System.out.println("Boston's batting avearge is .217");
+   				System.out.println("He is number 9 in this stat");
+   			}
+   					else
+   						if (stats == 2){
+
+   							System.out.println("Boston's on base percntage is .438");
+   							System.out.println("He is number 7 in this stat");
+   						}
+   								else
+   									if (stats == 3){
+
+   										System.out.println("Boston's slugging percentage is .217");
+   										System.out.println("He is number 9 in this stat");
+   									}
+   											else
+   										if (stats ==4){
+
+   											System.out.println("Boston's on base plus slugging percentage is .655");
+   											System.out.println("He is number 9 in this stat");
+   										}
+
+ 	}
+
+
+
+
+//Jacob
+
+	while (player == 64){
+
+   		System.out.println("What stats would you like to see?");
+  		System.out.println("Choose 1 for batting average");
+   		System.out.println("Choose 2 for on base percentage");
+   		System.out.println("Choose 3 for Slugging Percentage");
+   		System.out.println("Choose 4 for on base plus slugging percentage");
+   		int stats = scan.nextInt();
+   			if (stats == 1){
+
+   				System.out.println("Boston's batting avearge is .333");
+   				System.out.println("He is number 5 in this stat");
+   			}
+   					else
+   						if (stats == 2){
+
+   							System.out.println("Boston's on base percntage is .484");
+   							System.out.println("He is number 4 in this stat");
+   						}
+   								else
+   									if (stats == 3){
+
+   										System.out.println("Boston's slugging percentage is .375");
+   										System.out.println("He is number 8 in this stat");
+   									}
+   											else
+   										if (stats ==4){
+
+   											System.out.println("Boston's on base plus slugging percentage is .859");
+   											System.out.println("He is number 6 in this stat");
+   										}
+
+ 	}
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+    	}
+
+
+
+
+
+
+
+
+
+
+
